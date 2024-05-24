@@ -1,0 +1,23 @@
+{
+    "pizzas": [
+      {"name": "Vegetable Pizza", "price": 10},
+      {"name": "Pepperoni Pizza", "price": 12},
+      {"name": "Vegetable Pizza", "price": 10},
+      {"name": "Pepperoni Pizza", "price": 12},
+      {"name": "Vegetable Pizza", "price": 10},
+      {"name": "Pepperoni Pizza", "price": 12}
+    ],
+    "fries": [
+      {"name": "French Fries Small", "price": 3},
+      {"name": "French Fries Large", "price": 5}
+    ],
+    "sandwiches": [
+      {"name": "Meat Sandwich", "price": 8},
+      {"name": "Chicken Sandwich", "price": 7}
+    ],
+    "drinks": [
+      {"name": "Coca Cola", "price": 2},
+      {"name": "Sprite", "price": 2}
+    ]
+  }
+  
