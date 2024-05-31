@@ -26,34 +26,26 @@ function loadCategory(category) {
 // Add item to the order list and update the total price
 function addToOrder(item) {
     const orderValues = document.getElementById('order-values');
-
     const orderRow = document.createElement('div');
     orderRow.classList.add('order-values');
-
     const itemName = document.createElement('div');
     itemName.classList.add('order-value');
     itemName.textContent = item.name;
-
     const itemQuantity = document.createElement('div');
     itemQuantity.classList.add('order-value');
     itemQuantity.textContent = 1;
-
     const itemTax = document.createElement('div');
     itemTax.classList.add('order-value');
     itemTax.textContent = (item.price * 0.1).toFixed(2); // Assuming 10% tax
-
     const itemPrice = document.createElement('div');
     itemPrice.classList.add('order-value');
     itemPrice.textContent = item.price.toFixed(2);
-
     orderRow.appendChild(itemName);
     orderRow.appendChild(itemQuantity);
     orderRow.appendChild(itemTax);
     orderRow.appendChild(itemPrice);
-
     orderValues.appendChild(orderRow);
     addToTotal(item.price);
-    totalPrice += item.price;
     document.getElementById('total-price').textContent = `${totalPrice.toFixed(2)} $`;
 }
 

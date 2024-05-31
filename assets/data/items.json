@@ -1,11 +1,11 @@
 {
     "pizzas": [
-      {"name": "Vegetable Pizza", "price": 10},
-      {"name": "Pepperoni Pizza", "price": 12},
-      {"name": "Vegetable Pizza", "price": 10},
-      {"name": "Pepperoni Pizza", "price": 12},
-      {"name": "Vegetable Pizza", "price": 10},
-      {"name": "Pepperoni Pizza", "price": 12}
+      {"name": "Margherita Pizza", "price": 10},
+      {"name": "Sicilian Pizza", "price": 12},
+      {"name": "California Pizza", "price": 10},
+      {"name": "Greek Pizza", "price": 12},
+      {"name": "Chicken Alfredo Pizza", "price": 10},
+      {"name": "Tuna Pizza", "price": 12}
     ],
     "fries": [
       {"name": "French Fries Small", "price": 3},
